@@ -1,0 +1,113 @@
+[ {
+    "@id" : "_:genid1",
+    "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+    "http://www.w3.org/2002/07/owl#onProperty" : [ {
+      "@id" : "http://www.semanticweb.org/rania/ontologies/2022/5/untitled-ontology-19#inverse_of"
+    } ],
+    "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+      "@id" : "http://www.semanticweb.org/rania/ontologies/2022/5/untitled-ontology-19#NL_exp"
+    } ]
+  }, {
+    "@id" : "_:genid2",
+    "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+    "http://www.w3.org/2002/07/owl#onProperty" : [ {
+      "@id" : "http://www.semanticweb.org/rania/ontologies/2022/5/untitled-ontology-19#inverse_of"
+    } ],
+    "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+      "@id" : "http://www.semanticweb.org/rania/ontologies/2022/5/untitled-ontology-19#formula"
+    } ]
+  }, {
+    "@id" : "_:genid3",
+    "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+    "http://www.w3.org/2002/07/owl#onProperty" : [ {
+      "@id" : "http://www.semanticweb.org/rania/ontologies/2022/5/untitled-ontology-19#inverse_of"
+    } ],
+    "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+      "@id" : "http://www.semanticweb.org/rania/ontologies/2022/5/untitled-ontology-19#ontology"
+    } ]
+  }, {
+    "@id" : "http://www.semanticweb.org/rania/ontologies/2022/5/untitled-ontology-19",
+    "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
+  }, {
+    "@id" : "http://www.semanticweb.org/rania/ontologies/2022/5/untitled-ontology-19#AF_P",
+    "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rania/ontologies/2022/5/untitled-ontology-19#NL_exp" ],
+    "http://www.semanticweb.org/rania/ontologies/2022/5/untitled-ontology-19#has_parameter" : [ {
+      "@id" : "http://www.semanticweb.org/rania/ontologies/2022/5/untitled-ontology-19#allways"
+    }, {
+      "@id" : "http://www.semanticweb.org/rania/ontologies/2022/5/untitled-ontology-19#is"
+    }, {
+      "@id" : "http://www.semanticweb.org/rania/ontologies/2022/5/untitled-ontology-19#possible"
+    } ]
+  }, {
+    "@id" : "http://www.semanticweb.org/rania/ontologies/2022/5/untitled-ontology-19#AG_P",
+    "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rania/ontologies/2022/5/untitled-ontology-19#NL_exp" ],
+    "http://www.semanticweb.org/rania/ontologies/2022/5/untitled-ontology-19#has_parameter" : [ {
+      "@id" : "http://www.semanticweb.org/rania/ontologies/2022/5/untitled-ontology-19#allways"
+    }, {
+      "@id" : "http://www.semanticweb.org/rania/ontologies/2022/5/untitled-ontology-19#is"
+    } ]
+  }, {
+    "@id" : "http://www.semanticweb.org/rania/ontologies/2022/5/untitled-ontology-19#AGnot_P",
+    "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rania/ontologies/2022/5/untitled-ontology-19#NL_exp" ],
+    "http://www.semanticweb.org/rania/ontologies/2022/5/untitled-ontology-19#has_parameter" : [ {
+      "@id" : "http://www.semanticweb.org/rania/ontologies/2022/5/untitled-ontology-19#never"
+    } ]
+  }, {
+    "@id" : "http://www.semanticweb.org/rania/ontologies/2022/5/untitled-ontology-19#EF_P",
+    "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+    "http://www.semanticweb.org/rania/ontologies/2022/5/untitled-ontology-19#has_parameter" : [ {
+      "@id" : "http://www.semanticweb.org/rania/ontologies/2022/5/untitled-ontology-19#is"
+    }, {
+      "@id" : "http://www.semanticweb.org/rania/ontologies/2022/5/untitled-ontology-19#possible"
+    } ]
+  }, {
+    "@id" : "http://www.semanticweb.org/rania/ontologies/2022/5/untitled-ontology-19#EG_P",
+    "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rania/ontologies/2022/5/untitled-ontology-19#NL_exp" ]
+  }, {
+    "@id" : "http://www.semanticweb.org/rania/ontologies/2022/5/untitled-ontology-19#NL_exp",
+    "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+      "@id" : "http://www.semanticweb.org/rania/ontologies/2022/5/untitled-ontology-19#ontology"
+    } ]
+  }, {
+    "@id" : "http://www.semanticweb.org/rania/ontologies/2022/5/untitled-ontology-19#allways",
+    "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+  }, {
+    "@id" : "http://www.semanticweb.org/rania/ontologies/2022/5/untitled-ontology-19#formula",
+    "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+      "@id" : "http://www.semanticweb.org/rania/ontologies/2022/5/untitled-ontology-19#ontology"
+    } ]
+  }, {
+    "@id" : "http://www.semanticweb.org/rania/ontologies/2022/5/untitled-ontology-19#has_parameter",
+    "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+  }, {
+    "@id" : "http://www.semanticweb.org/rania/ontologies/2022/5/untitled-ontology-19#inverse_of",
+    "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+    "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+      "@id" : "_:genid1"
+    }, {
+      "@id" : "_:genid2"
+    } ],
+    "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+      "@id" : "_:genid3"
+    } ]
+  }, {
+    "@id" : "http://www.semanticweb.org/rania/ontologies/2022/5/untitled-ontology-19#is",
+    "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+  }, {
+    "@id" : "http://www.semanticweb.org/rania/ontologies/2022/5/untitled-ontology-19#meaning_of",
+    "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+  }, {
+    "@id" : "http://www.semanticweb.org/rania/ontologies/2022/5/untitled-ontology-19#mot_cle_ontology",
+    "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
+  }, {
+    "@id" : "http://www.semanticweb.org/rania/ontologies/2022/5/untitled-ontology-19#never",
+    "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+  }, {
+    "@id" : "http://www.semanticweb.org/rania/ontologies/2022/5/untitled-ontology-19#ontology",
+    "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+  }, {
+    "@id" : "http://www.semanticweb.org/rania/ontologies/2022/5/untitled-ontology-19#possible",
+    "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+  } ]
